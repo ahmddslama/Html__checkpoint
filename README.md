@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <title>My portfolio</title>
     <link rel="icon" href="/IMG_6465.png">
-</head>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <body>
     <!--Creating our navbar -->
     <header>
         <nav>
-            <img width="200px" src="./man-male-young-person-icon_24877-30222.avif" alt="My personal picture">
+            <img width="100px" src="./man-male-young-person-icon_24877-30222.avif" alt="My personal picture">
             <div>
             <ul>
                 <li><a href="#home">HOME</a> </li>
@@ -58,6 +61,7 @@
                     <td>High Earning Potential. As with many growing industries, the earning potential for web developers is very appealing</td>
                 </tr>
             </table>
+            <hr>
         </section>
         <!--"resume" section-->
         <section id="resume">
@@ -80,7 +84,7 @@
         <!--"contact" section-->
         <section id="contact">
             <h1>CONTACT</h1>
-            <video controls width="500px" src="/videoplayback.mp4"></video>
+            <video controls width="500px" src="videoplayback.mp4"></video>
             <br>
             <b>If you have any questions,please fill out this form and we will contact you as soon as possible.</b>
             <form>
@@ -96,7 +100,7 @@
         </section>
         <hr>
     </main>
-    <footer>
+    <footer class="abc">
         <p>These are our social media links </p>
         <ul>
             <li><a href="https://www.instagram.com/accounts/login/?hl=en">instagram</a></li>
@@ -107,8 +111,9 @@
     <br>
     <textarea name="Please write your comment in this box" cols="30" rows="10"></textarea>
     <br>
-    <button type="submit">Submit comment</button>
+    <button class="be" type="submit">Submit comment</button>
     <p>copyright 2024</p>
+    <a href="https://www.youtube.com">click here</a>
     </footer>  
 </body>
 </html>
